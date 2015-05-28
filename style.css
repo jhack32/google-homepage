@@ -55,16 +55,15 @@ body {
 	color: #222;
 }
 #footer ul {
-	position:absolute;
-	margin: 0;
+	position: absolute;
 	padding: 0;
+	margin: 0;
 	bottom:0px;
 	left:0px;
 	right:0px;
 	background: #F2F2F2 none repeat scroll 0% 0%;
 	border-top: 1px solid #E4E4E4;
 	line-height: 40px;
-	min-width: 980px;
 }
 #footer ul li {
 	display: inline;
@@ -80,3 +79,26 @@ body {
 #footer ul li a:hover {
 	text-decoration: underline;
 }
+#footerright ul  {
+	position: absolute;
+	margin: 0;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: right;
+	line-height: 40px;
+	padding-right: 30px;
+}
+#footerright ul li {
+	display: inline;
+	font-family: arial, sans-serif;
+}
+#footerright ul li a {
+	color: #666;
+	text-decoration: none;
+	white-space: nowrap;
+	font-size: small;
+	padding-left: 27px;
+}
+#footerright ul li a:hover {
+	text-decoration: underline;
